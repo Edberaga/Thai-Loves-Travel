@@ -1,0 +1,28 @@
+footer {
+    .social-media {
+        gap: 25px;
+        display: flex;
+        justify-content: center;
+        transition: 0.5s;
+        .social-icon {
+            color: green;
+            padding: 10px;
+            background-color: #73737380;
+            border-radius: 50%;
+            transition: 0.5s;
+
+            width: 2.5rem;
+            height: 2.5rem;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            box-sizing: border-box;
+        }
+        .social-icon:hover {
+            color: white;
+        }
+    }
+    .social-media:hover {
+        opacity: 0.75;
+    }
+} 
