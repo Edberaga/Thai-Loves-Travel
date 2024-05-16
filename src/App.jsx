@@ -13,8 +13,9 @@ function App() {
     <div className="container">
       <h2>We are Coming Soon...</h2>
       <p>We are currently working on our new website.<br/>We will be here soon, We will notify you when we finish the Sites!</p>
+      <Notify/>
     </div>
-    <Notify/>
+    
     <Footer/>
   </main>
   )
