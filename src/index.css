@@ -15,23 +15,22 @@
 
 a {
   font-weight: 500;
-  color: #646cff;
+  color: #64ffff;
+  transition: 0.38s;
   text-decoration: inherit;
 }
+
 a:hover {
-  color: #535bf2;
+  color: #53dff2;
 }
 
 body {
   margin: 0;
-  display: flex;
-  place-items: center;
-  min-width: 320px;
-  min-height: 100vh;
+  height: 100vh;
 }
 
 h1 {
-  font-size: 3.2em;
+  font-size: 2.52em;
   line-height: 1.1;
 }
 
