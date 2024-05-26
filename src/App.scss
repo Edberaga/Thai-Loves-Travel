@@ -1,3 +1,5 @@
+@use 'base';
+
 #root {
   height: 100%;
   margin: 0 auto;
@@ -6,18 +8,14 @@
 }
 
 main {
-  display: flex;
-  flex-flow: column;
-  justify-content: space-evenly;
-  width: 100%;
-  height: 100%;
+  @extend %flex-column;
+  @extend %fill-size;
   padding: 2rem;
   box-sizing: border-box;
 }
 
 .background {
-  width: 100%;
-  height: 100%;
+  @extend %fill-size;
   position: absolute;
   background-image: url('./assets/images/background-hd.jpg');
   background-size: cover;
